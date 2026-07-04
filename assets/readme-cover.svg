@@ -1,0 +1,73 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>linuxdo-blog cover</title>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7E8"/>
+      <stop offset="0.52" stop-color="#F5FAF7"/>
+      <stop offset="1" stop-color="#F8ECF1"/>
+    </linearGradient>
+    <linearGradient id="card" x1="812" y1="88" x2="1102" y2="318" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1F6F78"/>
+      <stop offset="1" stop-color="#194B52"/>
+    </linearGradient>
+    <linearGradient id="phone" x1="718" y1="112" x2="854" y2="314" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4B942"/>
+      <stop offset="1" stop-color="#E0733F"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#5C4D3C" flood-opacity="0.18"/>
+    </filter>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2" fill="#2D6F63" opacity="0.16"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="420" rx="0" fill="url(#paper)"/>
+  <rect x="0" y="0" width="1280" height="420" fill="url(#dots)" opacity="0.6"/>
+
+  <path d="M92 326C222 244 245 104 385 129C521 154 536 299 682 271C818 245 850 124 1002 132C1096 137 1149 193 1194 247" stroke="#D65F4C" stroke-width="5" stroke-linecap="round" stroke-dasharray="1 18"/>
+  <path d="M94 326C222 244 245 104 385 129C521 154 536 299 682 271C818 245 850 124 1002 132C1096 137 1149 193 1194 247" stroke="#2D6F63" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
+
+  <circle cx="178" cy="116" r="44" fill="#E7B84E" opacity="0.82"/>
+  <circle cx="1134" cy="90" r="68" fill="#D65F4C" opacity="0.14"/>
+  <circle cx="1036" cy="337" r="36" fill="#2D6F63" opacity="0.16"/>
+  <rect x="86" y="256" width="126" height="82" rx="18" fill="#FFFFFF" opacity="0.72"/>
+  <path d="M115 296H183M115 316H156" stroke="#38423D" stroke-width="8" stroke-linecap="round" opacity="0.3"/>
+
+  <g filter="url(#shadow)">
+    <rect x="742" y="100" width="132" height="224" rx="28" fill="#24322F"/>
+    <rect x="758" y="122" width="100" height="180" rx="18" fill="url(#phone)"/>
+    <rect x="792" y="112" width="32" height="5" rx="2.5" fill="#FFF1D4" opacity="0.48"/>
+    <circle cx="808" cy="278" r="9" fill="#FFF1D4" opacity="0.58"/>
+    <path d="M782 164H835M782 188H822M782 232H841" stroke="#FFF7E8" stroke-width="8" stroke-linecap="round" opacity="0.72"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="864" y="126" width="286" height="178" rx="26" fill="url(#card)"/>
+    <rect x="899" y="170" width="58" height="42" rx="9" fill="#F4D17D"/>
+    <path d="M899 191H957M928 170V212" stroke="#8D6C2C" stroke-width="3" opacity="0.55"/>
+    <path d="M899 244H1038M899 264H982" stroke="#E8F5EF" stroke-width="10" stroke-linecap="round" opacity="0.72"/>
+    <circle cx="1088" cy="252" r="24" fill="#F4B942" opacity="0.86"/>
+    <circle cx="1118" cy="252" r="24" fill="#D65F4C" opacity="0.72"/>
+  </g>
+
+  <g transform="translate(1038 55) rotate(8)">
+    <rect width="96" height="56" rx="12" fill="#FFFFFF" stroke="#2D6F63" stroke-width="3"/>
+    <path d="M18 19H72M18 36H54" stroke="#2D6F63" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+  </g>
+
+  <g transform="translate(617 75) rotate(-10)">
+    <rect width="74" height="74" rx="18" fill="#FFFFFF" stroke="#D65F4C" stroke-width="3"/>
+    <path d="M22 24H52M22 38H49M22 52H42" stroke="#D65F4C" stroke-width="5" stroke-linecap="round" opacity="0.52"/>
+  </g>
+
+  <text x="92" y="168" fill="#26352F" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="72" font-weight="800" letter-spacing="0">
+    linuxdo-blog
+  </text>
+  <text x="96" y="222" fill="#4C5A54" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="30" font-weight="500" letter-spacing="0">
+    折腾笔记 / 电话卡 / 支付 / 跨境
+  </text>
+  <text x="98" y="273" fill="#D65F4C" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="700" letter-spacing="2">
+    NOTES FROM THE ROAD
+  </text>
+</svg>
